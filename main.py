@@ -11,7 +11,7 @@ img_url = 'https://upload.wikimedia.org/wikipedia/commons/0/07/MtFujiFromAircraf
 im = imread(img_url)
 
 st.image(im, caption='image from wikimedia commons',
-         use_column_width=True))))
+         use_column_width=True)
 
 
 # show histgram of all colors
