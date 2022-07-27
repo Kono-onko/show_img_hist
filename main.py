@@ -8,10 +8,10 @@ from skimage.io import imread
 #img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_from_Mount_Aino.jpg/640px-Mount_Fuji_from_Mount_Aino.jpg'
 img_url = 'https://upload.wikimedia.org/wikipedia/commons/0/07/MtFujiFromAircraft.jpg'
 
-im = imread(img_url);
+im = imread(img_url)
 
 st.image(im, caption='image from wikimedia commons',
-         use_column_width=True)
+         use_column_width=True))))
 
 
 # show histgram of all colors
